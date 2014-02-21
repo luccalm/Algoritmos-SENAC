@@ -1,0 +1,17 @@
+Camadas:
+- Hardware
+- Sistema Operacional
+- Bibliotecas
+- Programas
+
+C:
+- Imperativa
+- estruturada
+- procedual
+
+# : pré-processamento
+#include: arquivo do cabeçalho (adiciona funcionalidades)
+
+/* */, // - Comentário
+
+
