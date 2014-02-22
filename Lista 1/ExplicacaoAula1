@@ -35,6 +35,18 @@ Atribuição:
 > operador =
 > Não confundir com IGUALDADE
 
+scanf()
+	>Tenta interpretar o que o usuário digita
+		>Nem sempre consegue
+
+
+Adição: +
+Subtração: -
+Multiplicação: *
+Divisão: /
+Resto: %
+
+-------------------------------------------
 Exemplo:
 
 #include <stdio.lib>
@@ -65,3 +77,23 @@ int main ()
 
 return 0;
 }
+------------------
+#include <stdio.h>
+int main ()
+{
+
+	int a, b;
+
+	printf("Digite um numero:");
+	scanf("%d", &a);
+
+	printf("Digite outro numero:");
+	scanf("%d", &b);
+
+	
+	printf("O valor é: %d \n", a + b);
+
+return 0;
+}
+
+
