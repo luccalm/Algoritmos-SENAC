@@ -1,4 +1,4 @@
-![alt tag](http://1-ps.googleusercontent.com/h/www.brainstorm9.com.br/wp-content/uploads/2012/08/012.jpg.pagespeed.ce.tL3ZhhlrtC.jpg)
+![alt tag](http://espaber.uspnet.usp.br/espaber/wp-content/uploads/2013/08/senac-logo.jpg)
 
 Algoritmos-SENAC
 ================
