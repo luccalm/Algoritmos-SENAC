@@ -14,8 +14,8 @@ int main() {
 	//EXEMPLO com A = 7 e B = 3:
 	//a = 7
 	//b = 3
-	
 	a = a + b; //a = 10 -> a(10)+ b(3)
+	a = a + b; //a = 10 -> a(7)+ b(3)
 	b = a - b; //b = 7 -> a(10) - b(3)
 	a = a - b; //a = 3 -> a(10) - b(7)
 
