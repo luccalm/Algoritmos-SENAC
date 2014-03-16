@@ -22,7 +22,7 @@ int main() {
 		}
 
 
-	if(dividiu == 1)
+	if(dividiu)
 	{
 		printf("Numero %d nao e primo.\n", numero);
 	}
