@@ -13,12 +13,12 @@ Como o exemplo acima demonstra, você não precisa se preocupar com alinhamento.
 
 int main() {
 
-int i,j,numero;
+int i = 1,j,numero;
 
 printf("Digite um numero:");
 scanf("%d", &numero);
 
-	for(i = 1; i <= numero; i++)
+	while(i <= numero)
 	{
 		j = 1;
 		while(j <= numero)
@@ -27,6 +27,7 @@ scanf("%d", &numero);
 		j++;
 		}
 		printf("\n");
+	i++;
 	}	
 	
 

@@ -5,12 +5,12 @@ e n que são primos. Note que, se n < 2, o programa simplesmente não imprime na
 
 int main() {
 
-	int numero, i, primo, divisor;
+	int numero, i = 2, primo, divisor;
 
 	printf("Digite um numero:");
 	scanf("%d", &numero);
 
-	for(i = 2; i <= numero; i++)
+	while(i <= numero)
 	{
 	primo = 0;
 	divisor = 2;	
@@ -30,7 +30,7 @@ int main() {
 		{
 		printf("%d \n", i);
 		}
-		
+	i++;	
 	}
 
 
