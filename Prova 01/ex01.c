@@ -33,10 +33,10 @@ printf("Reprovado em Projeto");
 if(notaAv >= 5 && notaPro >= 5)
 {
 media = (float) notaAv + notaPro;
-if(media > 6)
-printf("Aprovado");
-else
-printf("Reprovado");	
+if(media > 6) {
+printf("Aprovado"); }
+else {
+printf("Reprovado"); }	
 }
 
 return 0;

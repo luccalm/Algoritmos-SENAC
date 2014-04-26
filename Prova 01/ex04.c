@@ -9,7 +9,7 @@ int main() {
 
 	controle = numero;
 
-	while(controle > 0 )
+	while(controle >= 0 )
 	{
 	linhas = numero;
 	colunas = numero;	
@@ -19,7 +19,6 @@ int main() {
 	printf("+---");
 	linhas--;	
 	}	
-	printf("+\n");
 	printf("|");
 	while(colunas > 0)
 	{
@@ -30,7 +29,7 @@ int main() {
 	controle--;
 	}
 
-	linhas = numero;
+/*	linhas = numero;
 	while(linhas > 0)
 	{
 	printf("+---");
@@ -38,6 +37,6 @@ int main() {
 	}
 	printf("+");
 
-	printf("\n");
+	printf("\n"); */
 	return 0;
 }
